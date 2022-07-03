@@ -1,0 +1,59 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.ObjectZone{
+  margin-left: 0px;
+  margin-top: 0px;
+  top : 150px;
+  left: 150px;
+  padding: 0;
+  height:600px;
+  width: 600px;
+  border: solid 3px;
+}
+
+.Object{
+  background-size: cover;
+  transform: translate(-50%,-50%);
+}
+
+.DeleteEffect{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes SideMove {
+  0%{
+    left: 0px;
+  }
+  50%{
+    left: 700px;
+  }
+  100%{
+    left: 0px;
+  }
+}
+.ClickEffect {
+  position: absolute;
+  background-image: url("https://media.istockphoto.com/vectors/click-icon-finger-cursor-symbol-vector-illustration-vector-id1196505978?k=6&m=1196505978&s=170667a&w=0&h=xMS0EOB5jMAw3STyVb2z-34HNSbLwMjP_1LVn2pBeZk=");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%,-50%);
+}
+
+.Score, .ScorePoint{
+  position: relative;
+  top : 100px;
+  left: 500px;
+}
